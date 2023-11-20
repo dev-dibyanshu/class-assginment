@@ -1,7 +1,7 @@
 #include <iostream>
  
 // Function to perform division
-double divideNumbers(int numerator, int denominator) {
+double divideNumbers(int numerator, int denominator) { 
     if (denominator == 0) {
         // Throw an exception for division by zero
         throw std::runtime_error("Error: Division by zero");
