@@ -1,5 +1,5 @@
 #include <iostream>
-
+ 
 // Function to perform division
 double divideNumbers(int numerator, int denominator) {
     if (denominator == 0) {
